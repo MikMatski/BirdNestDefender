@@ -2,12 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Nest Defender</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bird Nest Defense</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(to bottom, #87CEEB, #E0F7FA); /* Sky gradient */
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .game-container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+      color: #0000FF; /* Blue to match enemy bird */
+      margin: 0 0 10px 0;
+    }
+    p {
+      color: #555;
+      margin: 5px 0;
+    }
+    canvas {
+      display: block; /* Remove default inline spacing */
+      margin: 0 auto; /* Center horizontally */
+    }
+  </style>
 </head>
 <body>
-  <!-- Load p5.js from CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
-  <!-- Load your game code -->
-  <script src="sketch.js"></script>
+  <div class="game-container">
+    <h1>Bird Nest Defense</h1>
+    <p>Use <strong>arrow keys</strong> to move. Steal eggs from unguarded nests and defend your own!</p>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+    <p>Created by MikMatski</p>
+  </div>
 </body>
 </html>
