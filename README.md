@@ -11,4 +11,5 @@ Rules:
 - Collide with enemy birds to repel them and prevent theft.
 
 Win: Be the last bird with eggs in your nest.
+
 Lose: Game ends if your nest runs out of eggs.
