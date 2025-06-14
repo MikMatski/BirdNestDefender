@@ -13,3 +13,5 @@ Rules:
 Win: Be the last bird with eggs in your nest.
 
 Lose: Game ends if your nest runs out of eggs.
+
+The game is hosted on github pages: https://mikmatski.github.io/BirdNestDefender/
